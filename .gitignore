@@ -1,13 +1,33 @@
+# Python
+# Byte-code files
+*.pyc
+__pycache__/
+
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+
+# Editor-specific files (optional)
+# VS Code
+.vscode/
 # PyCharm
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# Виртуальное окружение
-venv/
-.venv/
-.env/
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-line.txt
+
+# OS generated files
+.DS_Store # macOS
+thumbs.db # Windows
